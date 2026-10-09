@@ -1,0 +1,56 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build & Compilation outputs
+dist/
+build/
+target/
+out/
+bin/
+*.class
+*.war
+*.ear
+*.jar
+
+# Environment and Secret files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.crt
+*.pfx
+id_rsa
+id_dsa
+service-account.json
+firebase-admin.json
+credentials.json
+client_secret.json
+secrets.*
+config/secrets.*
+terraform.tfvars
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db

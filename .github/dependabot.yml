@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Maintain npm dependencies for React frontend
+  - package-ecosystem: "npm"
+    directory: "/project"
+    schedule:
+      interval: "weekly"
+
+  # Maintain Maven dependencies for Java backend
+  - package-ecosystem: "maven"
+    directory: "/backend"
+    schedule:
+      interval: "weekly"
